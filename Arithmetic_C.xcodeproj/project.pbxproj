@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4959A790559F37FDECD27D52 /* libPods-Arithmetic_CUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 010E520ECE36DF7A285FD13C /* libPods-Arithmetic_CUITests.a */; };
+		582EE32821F56B6B00F8245A /* HSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EE32721F56B6B00F8245A /* HSTableViewModel.m */; };
+		582EE32C21F5703D00F8245A /* HSTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EE32B21F5703D00F8245A /* HSTableModel.m */; };
+		582EE33121F571B800F8245A /* HSTwoSumViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EE33021F571B800F8245A /* HSTwoSumViewModel.m */; };
+		582EE33721F5AE4400F8245A /* HSTBaseCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EE33621F5AE4400F8245A /* HSTBaseCellViewModel.m */; };
+		582EE33B21F5C64300F8245A /* HSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EE33A21F5C64300F8245A /* HSUtil.m */; };
+		582EE34021F5D33D00F8245A /* HSArithmeticViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582EE33F21F5D33D00F8245A /* HSArithmeticViewModel.swift */; };
+		5867A91C21EDD94F00D30590 /* HSArithmeticTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5867A91B21EDD94F00D30590 /* HSArithmeticTitleCell.m */; };
 		586C8D6221C781FA00B3FA69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586C8D6121C781FA00B3FA69 /* AppDelegate.m */; };
 		586C8D6521C781FA00B3FA69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586C8D6421C781FA00B3FA69 /* ViewController.m */; };
 		586C8D6821C781FA00B3FA69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586C8D6621C781FA00B3FA69 /* Main.storyboard */; };
@@ -15,6 +23,9 @@
 		586C8D7021C781FB00B3FA69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 586C8D6F21C781FB00B3FA69 /* main.m */; };
 		586C8D7A21C781FC00B3FA69 /* Arithmetic_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586C8D7921C781FC00B3FA69 /* Arithmetic_CTests.m */; };
 		586C8D8521C781FC00B3FA69 /* Arithmetic_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586C8D8421C781FC00B3FA69 /* Arithmetic_CUITests.m */; };
+		586C8D9421C782F400B3FA69 /* HSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586C8D9321C782F400B3FA69 /* HSRootViewController.m */; };
+		C9E62E01AE55ADDB7E9265ED /* libPods-Arithmetic_C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BC5B62491AEA7E5D1EF064 /* libPods-Arithmetic_C.a */; };
+		F518D39CAA01EE08DF1B196A /* libPods-Arithmetic_CTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 113642817FC2CF896936B773 /* libPods-Arithmetic_CTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010E520ECE36DF7A285FD13C /* libPods-Arithmetic_CUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Arithmetic_CUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		113642817FC2CF896936B773 /* libPods-Arithmetic_CTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Arithmetic_CTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDD080AB5157D4CD09B5903 /* Pods-Arithmetic_C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arithmetic_C.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arithmetic_C/Pods-Arithmetic_C.release.xcconfig"; sourceTree = "<group>"; };
+		3161151CEF33ABC71B5E2613 /* Pods-Arithmetic_C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arithmetic_C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arithmetic_C/Pods-Arithmetic_C.debug.xcconfig"; sourceTree = "<group>"; };
+		582EE32621F56B6B00F8245A /* HSTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSTableViewModel.h; sourceTree = "<group>"; };
+		582EE32721F56B6B00F8245A /* HSTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSTableViewModel.m; sourceTree = "<group>"; };
+		582EE32A21F5703D00F8245A /* HSTableModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSTableModel.h; sourceTree = "<group>"; };
+		582EE32B21F5703D00F8245A /* HSTableModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSTableModel.m; sourceTree = "<group>"; };
+		582EE32F21F571B800F8245A /* HSTwoSumViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSTwoSumViewModel.h; sourceTree = "<group>"; };
+		582EE33021F571B800F8245A /* HSTwoSumViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSTwoSumViewModel.m; sourceTree = "<group>"; };
+		582EE33321F59B6400F8245A /* HSTableViewCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSTableViewCellProtocol.h; sourceTree = "<group>"; };
+		582EE33521F5AE4400F8245A /* HSTBaseCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSTBaseCellViewModel.h; sourceTree = "<group>"; };
+		582EE33621F5AE4400F8245A /* HSTBaseCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSTBaseCellViewModel.m; sourceTree = "<group>"; };
+		582EE33921F5C64300F8245A /* HSUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSUtil.h; sourceTree = "<group>"; };
+		582EE33A21F5C64300F8245A /* HSUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSUtil.m; sourceTree = "<group>"; };
+		582EE33E21F5D33C00F8245A /* Arithmetic_C-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Arithmetic_C-Bridging-Header.h"; sourceTree = "<group>"; };
+		582EE33F21F5D33D00F8245A /* HSArithmeticViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSArithmeticViewModel.swift; sourceTree = "<group>"; };
+		5867A91A21EDD94F00D30590 /* HSArithmeticTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSArithmeticTitleCell.h; sourceTree = "<group>"; };
+		5867A91B21EDD94F00D30590 /* HSArithmeticTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSArithmeticTitleCell.m; sourceTree = "<group>"; };
 		586C8D5D21C781FA00B3FA69 /* Arithmetic_C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arithmetic_C.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		586C8D6021C781FA00B3FA69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		586C8D6121C781FA00B3FA69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +81,15 @@
 		586C8D8021C781FC00B3FA69 /* Arithmetic_CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Arithmetic_CUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		586C8D8421C781FC00B3FA69 /* Arithmetic_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arithmetic_CUITests.m; sourceTree = "<group>"; };
 		586C8D8621C781FC00B3FA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586C8D9221C782F400B3FA69 /* HSRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSRootViewController.h; sourceTree = "<group>"; };
+		586C8D9321C782F400B3FA69 /* HSRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSRootViewController.m; sourceTree = "<group>"; };
+		587FEA9121EDDAE500C5EB7E /* HSPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSPrefixHeader.pch; sourceTree = "<group>"; };
+		587FEA9221EDDBBC00C5EB7E /* HSConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSConstant.h; sourceTree = "<group>"; };
+		872705BC6F0F8D659D54E1AA /* Pods-Arithmetic_CTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arithmetic_CTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arithmetic_CTests/Pods-Arithmetic_CTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95BC5B62491AEA7E5D1EF064 /* libPods-Arithmetic_C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Arithmetic_C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65B420BDBD6A24462985FF9 /* Pods-Arithmetic_CUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arithmetic_CUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arithmetic_CUITests/Pods-Arithmetic_CUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB98AF4B56BB3C349B7A8381 /* Pods-Arithmetic_CUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arithmetic_CUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arithmetic_CUITests/Pods-Arithmetic_CUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC92644CC32DBA0D51AC3AC3 /* Pods-Arithmetic_CTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arithmetic_CTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arithmetic_CTests/Pods-Arithmetic_CTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E62E01AE55ADDB7E9265ED /* libPods-Arithmetic_C.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F518D39CAA01EE08DF1B196A /* libPods-Arithmetic_CTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +113,122 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4959A790559F37FDECD27D52 /* libPods-Arithmetic_CUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4300182D9025809A23165344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95BC5B62491AEA7E5D1EF064 /* libPods-Arithmetic_C.a */,
+				113642817FC2CF896936B773 /* libPods-Arithmetic_CTests.a */,
+				010E520ECE36DF7A285FD13C /* libPods-Arithmetic_CUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		582EE32521F56B3200F8245A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				582EE32D21F5717500F8245A /* ArithmeticViewModel */,
+				582EE32621F56B6B00F8245A /* HSTableViewModel.h */,
+				582EE32721F56B6B00F8245A /* HSTableViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		582EE32921F5702B00F8245A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				582EE32A21F5703D00F8245A /* HSTableModel.h */,
+				582EE32B21F5703D00F8245A /* HSTableModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		582EE32D21F5717500F8245A /* ArithmeticViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				582EE33421F5AE1400F8245A /* Base */,
+				582EE32E21F571A900F8245A /* No.1_TwoSum */,
+			);
+			name = ArithmeticViewModel;
+			path = Arithmetic_C/Model/ArithmeticViewModel;
+			sourceTree = SOURCE_ROOT;
+		};
+		582EE32E21F571A900F8245A /* No.1_TwoSum */ = {
+			isa = PBXGroup;
+			children = (
+				582EE32F21F571B800F8245A /* HSTwoSumViewModel.h */,
+				582EE33021F571B800F8245A /* HSTwoSumViewModel.m */,
+			);
+			path = No.1_TwoSum;
+			sourceTree = "<group>";
+		};
+		582EE33221F59B4000F8245A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				582EE33321F59B6400F8245A /* HSTableViewCellProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		582EE33421F5AE1400F8245A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				582EE33521F5AE4400F8245A /* HSTBaseCellViewModel.h */,
+				582EE33621F5AE4400F8245A /* HSTBaseCellViewModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		582EE33821F5C63700F8245A /* HSUtil */ = {
+			isa = PBXGroup;
+			children = (
+				582EE33921F5C64300F8245A /* HSUtil.h */,
+				582EE33A21F5C64300F8245A /* HSUtil.m */,
+			);
+			path = HSUtil;
+			sourceTree = "<group>";
+		};
+		582EE33C21F5D2F300F8245A /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				582EE33D21F5D31F00F8245A /* HSArithmeticViewModel */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		582EE33D21F5D31F00F8245A /* HSArithmeticViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				582EE33F21F5D33D00F8245A /* HSArithmeticViewModel.swift */,
+				582EE33E21F5D33C00F8245A /* Arithmetic_C-Bridging-Header.h */,
+			);
+			path = HSArithmeticViewModel;
+			sourceTree = "<group>";
+		};
+		5867A91921EDD90E00D30590 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5867A91A21EDD94F00D30590 /* HSArithmeticTitleCell.h */,
+				5867A91B21EDD94F00D30590 /* HSArithmeticTitleCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5867A91D21EDDAA900D30590 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				587FEA9121EDDAE500C5EB7E /* HSPrefixHeader.pch */,
+				587FEA9221EDDBBC00C5EB7E /* HSConstant.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		586C8D5421C781FA00B3FA69 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +236,8 @@
 				586C8D7821C781FC00B3FA69 /* Arithmetic_CTests */,
 				586C8D8321C781FC00B3FA69 /* Arithmetic_CUITests */,
 				586C8D5E21C781FA00B3FA69 /* Products */,
+				D29D88FEA8376777C3986286 /* Pods */,
+				4300182D9025809A23165344 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +254,13 @@
 		586C8D5F21C781FA00B3FA69 /* Arithmetic_C */ = {
 			isa = PBXGroup;
 			children = (
+				582EE33C21F5D2F300F8245A /* Swift */,
+				582EE33821F5C63700F8245A /* HSUtil */,
+				5867A91D21EDDAA900D30590 /* Public */,
+				582EE33221F59B4000F8245A /* Protocol */,
+				582EE32921F5702B00F8245A /* Model */,
+				582EE32521F56B3200F8245A /* ViewModel */,
+				5867A91921EDD90E00D30590 /* Cell */,
 				586C8D6021C781FA00B3FA69 /* AppDelegate.h */,
 				586C8D6121C781FA00B3FA69 /* AppDelegate.m */,
 				586C8D6321C781FA00B3FA69 /* ViewController.h */,
@@ -110,6 +270,8 @@
 				586C8D6B21C781FB00B3FA69 /* LaunchScreen.storyboard */,
 				586C8D6E21C781FB00B3FA69 /* Info.plist */,
 				586C8D6F21C781FB00B3FA69 /* main.m */,
+				586C8D9221C782F400B3FA69 /* HSRootViewController.h */,
+				586C8D9321C782F400B3FA69 /* HSRootViewController.m */,
 			);
 			path = Arithmetic_C;
 			sourceTree = "<group>";
@@ -132,6 +294,19 @@
 			path = Arithmetic_CUITests;
 			sourceTree = "<group>";
 		};
+		D29D88FEA8376777C3986286 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3161151CEF33ABC71B5E2613 /* Pods-Arithmetic_C.debug.xcconfig */,
+				1FDD080AB5157D4CD09B5903 /* Pods-Arithmetic_C.release.xcconfig */,
+				872705BC6F0F8D659D54E1AA /* Pods-Arithmetic_CTests.debug.xcconfig */,
+				FC92644CC32DBA0D51AC3AC3 /* Pods-Arithmetic_CTests.release.xcconfig */,
+				EB98AF4B56BB3C349B7A8381 /* Pods-Arithmetic_CUITests.debug.xcconfig */,
+				E65B420BDBD6A24462985FF9 /* Pods-Arithmetic_CUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +314,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 586C8D8921C781FC00B3FA69 /* Build configuration list for PBXNativeTarget "Arithmetic_C" */;
 			buildPhases = (
+				AA2104A2157C8E0C87183CEB /* [CP] Check Pods Manifest.lock */,
 				586C8D5921C781FA00B3FA69 /* Sources */,
 				586C8D5A21C781FA00B3FA69 /* Frameworks */,
 				586C8D5B21C781FA00B3FA69 /* Resources */,
+				DAEF191125DA92DE8D41C852 /* [CP] Embed Pods Frameworks */,
+				0BBD098F50B75EC15A7407E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 586C8D8C21C781FC00B3FA69 /* Build configuration list for PBXNativeTarget "Arithmetic_CTests" */;
 			buildPhases = (
+				F345A648D55632CB1BA96CC6 /* [CP] Check Pods Manifest.lock */,
 				586C8D7121C781FC00B3FA69 /* Sources */,
 				586C8D7221C781FC00B3FA69 /* Frameworks */,
 				586C8D7321C781FC00B3FA69 /* Resources */,
+				3F4D432C85780DBA2C415DF4 /* [CP] Embed Pods Frameworks */,
+				9336F2DACA05753BE688F68C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +355,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 586C8D8F21C781FC00B3FA69 /* Build configuration list for PBXNativeTarget "Arithmetic_CUITests" */;
 			buildPhases = (
+				5B33F5C1E72F56BCDE931F98 /* [CP] Check Pods Manifest.lock */,
 				586C8D7C21C781FC00B3FA69 /* Sources */,
 				586C8D7D21C781FC00B3FA69 /* Frameworks */,
 				586C8D7E21C781FC00B3FA69 /* Resources */,
+				12E2B8BCDE4F6B63C57A2944 /* [CP] Embed Pods Frameworks */,
+				BDCBAD492F06B270B937E757 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +383,7 @@
 				TargetAttributes = {
 					586C8D5C21C781FA00B3FA69 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					586C8D7421C781FC00B3FA69 = {
 						CreatedOnToolsVersion = 10.1;
@@ -257,14 +442,213 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BBD098F50B75EC15A7407E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Arithmetic_C/Pods-Arithmetic_C-resources.sh",
+				"${PODS_ROOT}/WHToast/WHToast/wtoast_icon/whtoast_error.png",
+				"${PODS_ROOT}/WHToast/WHToast/wtoast_icon/whtoast_error@2x.png",
+				"${PODS_ROOT}/WHToast/WHToast/wtoast_icon/whtoast_error@3x.png",
+				"${PODS_ROOT}/WHToast/WHToast/wtoast_icon/whtoast_success.png",
+				"${PODS_ROOT}/WHToast/WHToast/wtoast_icon/whtoast_success@2x.png",
+				"${PODS_ROOT}/WHToast/WHToast/wtoast_icon/whtoast_success@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arithmetic_C/Pods-Arithmetic_C-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12E2B8BCDE4F6B63C57A2944 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arithmetic_CUITests/Pods-Arithmetic_CUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F4D432C85780DBA2C415DF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arithmetic_CTests/Pods-Arithmetic_CTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B33F5C1E72F56BCDE931F98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arithmetic_CUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9336F2DACA05753BE688F68C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arithmetic_CTests/Pods-Arithmetic_CTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2104A2157C8E0C87183CEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arithmetic_C-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDCBAD492F06B270B937E757 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arithmetic_CUITests/Pods-Arithmetic_CUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEF191125DA92DE8D41C852 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arithmetic_C/Pods-Arithmetic_C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F345A648D55632CB1BA96CC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arithmetic_CTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		586C8D5921C781FA00B3FA69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582EE34021F5D33D00F8245A /* HSArithmeticViewModel.swift in Sources */,
+				582EE33B21F5C64300F8245A /* HSUtil.m in Sources */,
+				582EE33721F5AE4400F8245A /* HSTBaseCellViewModel.m in Sources */,
+				582EE32C21F5703D00F8245A /* HSTableModel.m in Sources */,
 				586C8D6521C781FA00B3FA69 /* ViewController.m in Sources */,
 				586C8D7021C781FB00B3FA69 /* main.m in Sources */,
+				5867A91C21EDD94F00D30590 /* HSArithmeticTitleCell.m in Sources */,
+				582EE33121F571B800F8245A /* HSTwoSumViewModel.m in Sources */,
+				582EE32821F56B6B00F8245A /* HSTableViewModel.m in Sources */,
 				586C8D6221C781FA00B3FA69 /* AppDelegate.m in Sources */,
+				586C8D9421C782F400B3FA69 /* HSRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,39 +817,68 @@
 		};
 		586C8D8A21C781FC00B3FA69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3161151CEF33ABC71B5E2613 /* Pods-Arithmetic_C.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = URJ79T2XN5;
+				GCC_PREFIX_HEADER = /Users/hanser/iOS/Arithmetic_C/Arithmetic_C/Public/HSPrefixHeader.pch;
 				INFOPLIST_FILE = Arithmetic_C/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hanser.Arithmetic-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Arithmetic_C/Swift/HSArithmeticViewModel/Arithmetic_C-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		586C8D8B21C781FC00B3FA69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FDD080AB5157D4CD09B5903 /* Pods-Arithmetic_C.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = URJ79T2XN5;
+				GCC_PREFIX_HEADER = /Users/hanser/iOS/Arithmetic_C/Arithmetic_C/Public/HSPrefixHeader.pch;
 				INFOPLIST_FILE = Arithmetic_C/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hanser.Arithmetic-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Arithmetic_C/Swift/HSArithmeticViewModel/Arithmetic_C-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		586C8D8D21C781FC00B3FA69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872705BC6F0F8D659D54E1AA /* Pods-Arithmetic_CTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Arithmetic_CTests/Info.plist;
@@ -483,7 +896,9 @@
 		};
 		586C8D8E21C781FC00B3FA69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC92644CC32DBA0D51AC3AC3 /* Pods-Arithmetic_CTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Arithmetic_CTests/Info.plist;
@@ -501,7 +916,9 @@
 		};
 		586C8D9021C781FC00B3FA69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB98AF4B56BB3C349B7A8381 /* Pods-Arithmetic_CUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Arithmetic_CUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -518,7 +935,9 @@
 		};
 		586C8D9121C781FC00B3FA69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65B420BDBD6A24462985FF9 /* Pods-Arithmetic_CUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Arithmetic_CUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

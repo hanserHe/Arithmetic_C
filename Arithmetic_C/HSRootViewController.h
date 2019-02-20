@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HSRootViewController.h
 //  Arithmetic_C
 //
 //  Created by Hanser on 2018/12/17.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UINavigationController
 
+
+@interface HSRootViewController : UIViewController
 
 @end
 
